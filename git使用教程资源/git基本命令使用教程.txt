@@ -1,0 +1,18 @@
+1.在本地创建一个项目文件夹，打开项目文件夹，输入命令
+  git init -- 初始化一个项目
+
+2.添加项目所有文件
+  git add .
+
+3.提交所有文件夹
+  git commit -m "备注信息" -a
+
+4.在github上创建一个不带READM.md的公开项目
+  copy 项目的https地址
+  例如：https://github.com/OliveKong/poster.git
+
+5.本地连接远程仓库
+  git remote add origin https://github.com/OliveKong/poster.git
+
+6.把本地项目推送到远程仓库
+  git push -u origin master
